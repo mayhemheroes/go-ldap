@@ -1,0 +1,7 @@
+project: go-ldap
+target: fuzz_get_ldap_error
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_get_ldap_error
+    libfuzzer: true
